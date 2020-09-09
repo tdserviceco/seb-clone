@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --header-height: 6rem;
+  --seb-green: #48b500;
+  --seb-black: #1a1a1a;
+  --hover: #0062bc;
+  --visited-b: #673ab6;
+  --link: #007ac7;
+  --default-color: #333;
+  --white: #fff;
+  --hover-shadow: #cecece;
+  --max-size: 77.75rem;
+  --button1: #0092e1;
+  --hero-footer: #1a1a1a;
+  --default-background: #eee;
+}
+
+body {
+  color: var(--default-color);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  background: var(--default-background);
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--hover);
+}
+
+a:visited {
+  color: var(--visited-b);
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: var(--header-height);
+  background: var(--white);
+  z-index: 10;
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+.logo {
+  width: 6rem;
+  height: 6rem;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  padding: 0 2rem;
+  height: 100%;
+  max-width: var(--max-size);
+  margin: 0 auto;
+}

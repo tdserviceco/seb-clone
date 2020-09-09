@@ -1,0 +1,373 @@
+@import "style.css";
+/* HEADER */
+
+.header-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.header-container .header-logo {
+  margin-right: 0.75rem;
+  height: var(--header-height);
+  width: 6rem;
+}
+
+.header-container .header-navigation {
+  height: 100%;
+  flex: 1;
+}
+
+.header-container .navigation {
+  display: flex;
+  height: 100%;
+}
+
+.header-container .navigation li {
+  padding: 0 1.25rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header-container .navigation a {
+  color: var(--default-color);
+}
+
+.header-container .navigation a:hover {
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 -4px 0 var(--hover-shadow);
+  height: 100%;
+}
+
+.header-container .navigation li:last-child {
+  padding: 0;
+}
+
+.header-container .header-utilites {
+  display: flex;
+  align-items: center;
+  margin-right: 0.75rem;
+}
+
+.header-container .header-utilites-user-login {
+  margin-right: 1.5rem;
+}
+
+.header-container .header-utilites-user-login a {
+  padding: 0.9375rem;
+  background: var(--hover);
+  color: var(--white);
+  border-radius: 0.3125rem;
+}
+
+.header-container .header-utilites-user-login,
+.header-container .header-utilites-become-customer,
+.header-container .header-utilites-search-bar {
+  padding: 0 1rem;
+}
+
+/* HERO */
+.hero-container {
+  background: url('../img/hero-bg.jpg') no-repeat center/cover;
+  height: 100vh;
+  min-height: calc(100vh - 6rem);
+  width: 100%;
+  position: relative;
+}
+
+.hero-container .hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--white);
+  height: 100%;
+}
+
+.hero-container .hero-content .hero-highlight {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-container .hero-content .hero-main-text {
+  max-width: 55.3125rem;
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+  line-height: 4.5rem;
+  font-size: 4.5rem;
+}
+
+.hero-container .hero-content .hero-sub-text {
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+}
+
+.hero-container .hero-content .btn.hero-btn{
+  background: var(--button1);
+  color: var(--white);
+  border: .0625rem solid var(--button1);
+  padding: 0 1rem;
+  border-radius: .25em;
+  line-height: 2.625em;
+  font-weight: 700;
+}
+
+/* HERO FOOTER */
+
+.hero-container .hero-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: var(--hero-footer);
+  display: flex;
+  flex-direction: column;
+  padding: 2.2rem 0;
+}
+
+.hero-container .hero-footer .hero-footer-navigation .navigation {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  align-items: center;
+}
+
+.hero-container .hero-footer .hero-footer-navigation .navigation li {
+  margin-right: 4rem;
+}
+
+.hero-container .hero-footer .hero-footer-navigation .navigation li:last-child {
+  margin-right: 0;
+}
+
+.hero-container .hero-footer .hero-footer-navigation .navigation a {
+  color: var(--white);
+}
+
+
+/* Custom service button */
+.custom-service-button {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  background: var(--seb-green);
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6rem;
+  color: var(--white);
+}
+
+
+.seb-content-block-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* SEB Content Block - Share tickets */
+
+.seb-content-block-container .seb-shares-tickets {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.1rem solid var(--hover-shadow);
+  margin: 2rem 0;
+}
+
+.seb-content-block-container .seb-share-ticket {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.seb-content-block-container .seb-share-ticket a {
+  color: var(--default-color);
+  text-decoration: underline;
+}
+
+
+.seb-content-block-container .seb-share-ticket:last-child a {
+  position: relative;
+  text-decoration: none;
+}
+
+.seb-content-block-container .seb-share-ticket:last-child a:hover:after,
+.seb-content-block-container .seb-share-ticket:last-child a:focus:after {
+  content: '';
+  border-bottom: 0.1rem solid var(--default-color);
+  position: absolute;
+  bottom: -2px;
+  width: 100%;
+  left: 0;
+}
+
+
+.seb-content-block-container .seb-share-ticket .share-ticket-procent {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+/* SEB Content Block - Posts block */
+
+.seb-content-block-container .seb-posts-block {
+
+  margin-bottom: 2rem;
+}
+
+.seb-content-block-container .seb-posts-block .seb-post {
+  display: flex;
+  margin-bottom: 2rem;
+  background: var(--white);
+} 
+
+.seb-content-block-container .seb-posts-block .seb-post .left-column,
+.seb-content-block-container .seb-posts-block .seb-post .right-column {
+  display: flex;
+  flex-direction: column;
+} 
+
+.seb-content-block-container .seb-posts-block .seb-post .text-block {
+  padding: 2rem;
+}
+
+
+.seb-content-block-container .seb-posts-block .seb-post .post-block-title {
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+
+.seb-content-block-container .seb-posts-block .seb-post .text-block{
+  margin-bottom: 2rem;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.seb-content-block-container .seb-posts-block .seb-post p {
+  margin-bottom: 2rem;
+}
+.seb-content-block-container .seb-posts-block .seb-post p:last-child  {
+  margin: 0;
+}
+
+.seb-content-block-container .seb-posts-block .seb-post .text-block-links {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.seb-content-block-container .seb-posts-block .seb-post .text-block-links a {
+  color: var(--default-color);
+}
+
+.seb-content-block-container .seb-posts-block .seb-post .text-block-links > a:hover,
+.seb-content-block-container .seb-posts-block .seb-post .text-block-links > a:focus {
+  content: '';
+  border-bottom: 0.1rem solid var(--default-color);
+  padding-bottom: 0.3rem;
+}
+
+
+.seb-content-block-container .seb-posts-block .seb-post .text-block-links a:first-child {
+  margin-right: 1.5rem;
+} 
+
+.seb-content-block-container .seb-posts-block .seb-post-bigbox {
+  position: relative;
+  background: url('../img/SEB-4.jpg') no-repeat center/cover;
+  width: 100%;
+  height: 36.9rem;
+  margin-bottom: 2rem;
+}
+
+.seb-content-block-container .seb-posts-block .seb-post-bigbox .bigbox-content {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 18.5rem;
+  width: 36.7rem;
+  background: var(--default-color);
+  color: var(--white);
+}
+
+.seb-content-block-container .seb-posts-block .seb-post-bigbox .bigbox-content .bigbox-content-top {
+  margin-bottom: 2rem;
+}
+
+.seb-content-block-container .seb-posts-block .seb-post-bigbox .bigbox-content .bigbox-content-bottom {
+  margin-top: 2rem;
+}
+
+.seb-content-block-container .seb-posts-block .seb-post-bigbox .bigbox-content .bigbox-content-text > * {
+  width: 97%;
+  padding-top: 1rem;
+}
+
+.seb-content-block-container .seb-posts-block .seb-post-bigbox .bigbox-content .btn.bigbox-button {
+  border: 1px solid var(--white);
+  padding: 1rem;
+  color: var(--white);
+  border-radius: 0.365rem;
+  font-weight: 700;
+}
+
+/* We-help-you-block */
+
+.seb-content-block-container .seb-latest-posts-block {
+  margin-bottom: 2rem;
+  display: flex;
+  width: 100%;
+}
+
+.seb-content-block-container .seb-latest-posts-block .seb-latest-post {
+  position: relative;
+  display: block;
+  margin-right: 2.1875rem;
+  width: 33.333%;
+  top: 0;
+  transition: top 250ms ease-in-out, box-shadow 250ms ease-in-out;
+  background: var(--white);
+}
+
+.seb-content-block-container .seb-latest-posts-block .seb-latest-post:last-child {
+  margin-right: 0;
+}
+
+.seb-content-block-container .seb-latest-posts-block .seb-latest-post:hover,
+.seb-content-block-container .seb-latest-posts-block .seb-latest-post:focus {
+  top: -1px;
+  box-shadow: -1px 9px 17px 2px rgba(166,166,166,1);
+}
+
+.seb-content-block-container .seb-latest-post-top img {
+  width: 100%;
+}
+
+.seb-content-block-container .seb-latest-post-bottom {
+  color: var(--default-color);
+  padding: 2rem 2rem 10rem;
+}
+
+.seb-content-block-container .seb-latest-post-title {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: var(--default-color);
+}
+
+/*Turn on later*/
+.section-private,
+.section-company {
+  display: none;
+}
