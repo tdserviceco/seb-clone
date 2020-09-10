@@ -1,333 +1,590 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/eb9c3bfd77.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/main.css">
-    <title>SEB Clone</title>
-  </head>
-  <body>
-    <header>
-      <div class="header-container">
-        <div class="header-logo ">
-          <a href="/">
-            <img class="logo" src="/img/seb-logo.svg" alt="SEB">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/eb9c3bfd77.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <title>SEB Clone</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div class="header-logo ">
+        <a href="/">
+          <img class="logo" src="./img/seb-logo.svg" alt="SEB">
+        </a>
+      </div>
+      <nav class="header-navigation">
+        <ul class="navigation">
+          <li>
+            <a href="#">Privat</a>
+            <section class="section-private">
+              <div class="section-private-landing-page">
+                <h2>
+                  <a href="#">privat
+                    <i class="fas fa-arrow-right"></i>
+                  </a>
+                </h2>
+              </div>
+            </section>
+          </li>
+          <li>
+            <a href="#">Företag</a>
+            <section class="section-company">
+              <div class="section-company-landing-page">
+                <h2>
+                  <a href="#">företag
+                    <i class="fas fa-arrow-right"></i>
+                  </a>
+                </h2>
+              </div>
+            </section>
+          </li>
+          <li>
+            <a href="#">Bli kund
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">Kundservice
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-utilites">
+        <div class="header-utilites-search-bar">
+          <a href="#" class="btn search-bar">
+            <i class="fas fa-search"></i> Sök
           </a>
         </div>
-        <nav class="header-navigation">
-          <ul class="navigation">
+        <div class="header-utilites-become-customer">
+          <a href="#"><i class="far fa-user"></i> Bli kund
+          </a>
+        </div>
+        <div class="header-utilites-user-login">
+          <a href="#" class="btn login">
+            <i class="fas fa-lock"></i> Logga in
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="hero-container">
+      <div class="hero-content container">
+        <div class="hero-highlight">
+          <h1 class="hero-main-text">Ett bolån hos oss kommer aldrig ensamt. Se allt som ingår.</h1>
+          <h3 class="hero-sub-text">Det är skillnad på bolån och bolån.</h3>
+          <a href="#" class="btn hero-btn">Räkna på hur mycket du får låna</a>
+        </div>
+      </div>
+      <div class="hero-footer">
+        <nav class="hero-footer-navigation">
+          <ul class="navigation container">
             <li>
-              <a href="#">Privat</a>
-              <section class="section-private">
-                <div class="section-private-landing-page">
-                  <h2>
-                    <a href="#">privat
-                      <i class="fas fa-arrow-right"></i>
-                    </a>
-                  </h2>
-                </div>
-              </section>
-            </li>
-            <li>
-              <a href="#">Företag</a>
-              <section class="section-company">
-                <div class="section-company-landing-page">
-                  <h2>
-                    <a href="#">företag
-                      <i class="fas fa-arrow-right"></i>
-                    </a>
-                  </h2>
-                </div>
-              </section>
-            </li>
-            <li>
-              <a href="#">Bli kund
-                <i class="fas fa-arrow-right"></i>
+              <a href="#">
+                Börs och finans <i class="fas fa-arrow-right"></i>
               </a>
             </li>
             <li>
-              <a href="#">Kundservice
-                <i class="fas fa-arrow-right"></i>
+              <a href="#">
+                Fondlista <i class="fas fa-arrow-right"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Bli kund <i class="fas fa-arrow-right"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Vanliga frågor och svar <i class="fas fa-arrow-right"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Skaffa mobilt BankID <i class="fas fa-arrow-right"></i>
               </a>
             </li>
           </ul>
-        </nav>
-        <div class="header-utilites">
-          <div class="header-utilites-search-bar">
-            <a href="#" class="btn search-bar">
-              <i class="fas fa-search"></i> Sök
-            </a>
+      </div>
+    </div>
+    </div>
+    <div class="seb-content-block">
+      <div class="seb-content-block-container container">
+        <div class="seb-shares-tickets">
+          <div class="seb-share-ticket">
+            <h4 class="share-ticket-title">
+              <a href="#">
+                Genomsnittsränta bolån augusti 2020:
+              </a>
+            </h4>
+            <h2 class="share-ticket-procent">1.55 %</h2>
           </div>
-          <div class="header-utilites-become-customer">
-            <a href="#"><i class="far fa-user"></i> Bli kund
-            </a>
+          <div class="seb-share-ticket">
+            <h4 class="share-ticket-title">
+              <a href="#">
+                Bolån 3 månaders listränta:
+              </a>
+            </h4>
+            <h2 class="share-ticket-procent">2,39 %</h2>
           </div>
-          <div class="header-utilites-user-login">
-            <a href="#" class="btn login">
-              <i class="fas fa-lock"></i> Logga in 
-            </a>
+          <div class="seb-share-ticket">
+            <h4 class="share-ticket-title">
+              <a href="#">Privatlån Enkla lånet:
+              </a>
+            </h4>
+            <h2 class="share-ticket-procent">3,80–11,10 %</h2>
+          </div>
+          <div class="seb-share-ticket">
+            <h4 class="share-ticket-title">
+              <a href="#">
+                Fler aktuella räntor <i class="fas fa-arrow-right"></i>
+              </a>
+            </h4>
+          </div>
+        </div>
+        <div class="seb-posts-block">
+          <article class="seb-post">
+            <div class="left-column">
+              <div class="text-block">
+                <h2 class="post-block-title">I medgång. Och motgång</h2>
+                <p class="post-block-text">Coronapandemin har förändrat mycket. Våra rutiner i vardagen, hur företag gör
+                  affärer och samhället i stort. Med stöd, råd och framförallt handfasta lösningar kan vi som bank
+                  tillsammans med dig som kund vara med och skapa en ny framtid. Den här filmen tillägnar vi alla som på
+                  olika sätt kämpar sig igenom krisen.</p>
+              </div>
+
+              <div class="text-block-links">
+                <a href="#">
+                  Se filmen <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+
+            </div>
+            <div class="right-column">
+              <img src="./img/SEB-1.jpg" alt="viltskog i dimma">
+            </div>
+          </article>
+          <article class="seb-post">
+            <div class="left-column">
+              <img src="./img/SEB-8.jpg" alt="Utsikten">
+            </div>
+            <div class="right-column">
+              <div class="text-block">
+                <h2 class="post-block-title">Vi blev Årets affärsbank – för andra året i rad</h2>
+                <p class="post-block-text">
+                  Varje år utser Finansbarometern årets affärsbank baserat på intervjuer med svenska företag. Självklart
+                  vill vi tacka alla kunder som röstat fram oss! Er uppskattning betyder extra mycket i turbulensen som
+                  hela världen går igenom.
+                </p>
+                <p>Tack. Igen.</p>
+              </div>
+              <div class="text-block-links">
+                <a href="#">
+                  Läs mer om utmärkelsen <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="seb-post">
+            <div class="left-column">
+              <div class="text-block">
+                <h2 class="post-block-title">Allt om följderna av coronapandemin</h2>
+                <p class="post-block-text">Vi följer utvecklingen, förklarar de senaste åtgärdspaketen och ger svar på
+                  frågor kring din ekonomi.</p>
+              </div>
+              <div class="text-block-links">
+                <a href="#">
+                  För privatpersoner <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#">
+                  För företagare <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="right-column">
+              <img src="./img/SEB-6.jpg" alt="Goa frukost">
+            </div>
+          </article>
+          <article class="seb-post-bigbox">
+            <div class="bigbox-content">
+              <div class="bigbox-content-top">
+                <div class="bigbox-content-text">
+                  <h3>Starta företag hos oss</h3>
+                  <p>Bli företagskund hos oss så hjälper vi dig att förverkliga din affärsidé. Vi erbjuder
+                    expertrådgivning och smarta digitala tjänster. Första steget är att ansöka om bankintyg. Det gör du
+                    direkt med mobilt BankID.</p>
+                </div>
+              </div>
+              <div class="bigbox-content-bottom">
+                <a href="#" class="btn bigbox-button">Bli företagskund hos oss</a>
+              </div>
+            </div>
+          </article>
+          <article class="seb-post">
+            <div class="left-column">
+              <img src="./img/SEB-13.jpg" alt="Goa frukost">
+            </div>
+            <div class="right-column">
+              <div class="text-block">
+                <h2 class="post-block-title">Spara 5 % av lönen för en bättre pension</h2>
+                <p class="post-block-text">Att ha ett eget pensionssparande blir allt viktigare. Därför är det ett bra
+                  mål att – om du har möjlighet – spara minst 5 % av lönen varje månad.</p>
+              </div>
+              <div class="text-block-links">
+                <a href="#">
+                  Starta ett pensionssparande <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="seb-post">
+            <div class="left-column">
+              <div class="text-block">
+                <h2 class="post-block-title">Sprid risken med ett månadssparande</h2>
+                <p class="post-block-text">När du månadssparar kommer du att köpa under både upp- och nedgång och på så
+                  sätt sprida risken jämfört med om du gör en engångsinsättning. Vilka fonder som passar dig beror på
+                  vad du vill med ditt sparande och hur aktiv du vill vara.</p>
+              </div>
+              <div class="text-block-links">
+                <a href="#">
+                  Läs mer och kom igång <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="right-column">
+              <img src="./img/SEB-10.jpg" alt="Morgon startar med Ipad">
+            </div>
+          </article>
+          <article class="seb-post">
+            <div class="left-column">
+              <img src="./img/SEB-2.jpg" alt="Morgon startar med Ipad">
+            </div>
+            <div class="right-column">
+              <div class="text-block">
+                <h2 class="post-block-title">Om du behöver låna</h2>
+                <p class="post-block-text">Laga bilen, renovera köket eller bli av med dyra smålån? Oavsett vad du
+                  behöver låna pengar till har vi lånet för dig. Räkna på vad det skulle kosta och ansök direkt om vårt
+                  vanligaste privatlån Enkla lånet.</p>
+              </div>
+              <div class="text-block-links">
+                <a href="#">
+                  Läs mer om Privatlån Enkla lånet <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="seb-post">
+            <div class="left-column">
+              <div class="text-block">
+                <h2 class="post-block-title">3 saker du inte får missa som student</h2>
+                <p class="post-block-text">Fria banktjänster. Fri hemförsäkring i 3 månader. Värdefulla kontaktnätverk.
+                </p>
+              </div>
+              <div class="text-block-links">
+                <a href="#">
+                  Skaffa studentpaketet och få allt det här <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="right-column">
+              <img src="./img/SEB-7.jpg" alt="Morgon startar med Ipad">
+            </div>
+          </article>
+        </div>
+        <div class="seb-latest-posts-block">
+
+          <a href="#" class="seb-latest-post">
+            <figure class="seb-latest-post-top">
+              <img src="./img/SEB-12.jpg" alt="barn">
+            </figure>
+            <article class="seb-latest-post-bottom">
+              <h2 class="seb-latest-post-title">Ge bort en bra start <i class="fas fa-arrow-right"></i></h2>
+              <p>
+                Ge dina barn eller barnbarn en bra start i livet med en gåva som växer i takt med barnet.
+              </p>
+            </article>
+          </a>
+
+          <a href="#" class="seb-latest-post">
+            <figure class="seb-latest-post-top">
+              <img src="./img/SEB-9.jpg" alt="barn">
+            </figure>
+            <article class="seb-latest-post-bottom">
+              <h2 class="seb-latest-post-title">Grönt bolån – för dig med klimatsmart boende <i
+                  class="fas fa-arrow-right"></i></h2>
+              <p>
+                Nu erbjuder vi dig som har ett klimatsmart boende en extra förmånlig boränta.
+              </p>
+            </article>
+          </a>
+
+          <a href="#" class="seb-latest-post">
+            <figure class="seb-latest-post-top">
+              <img src="./img/SEB-11.jpg" alt="barn">
+            </figure>
+            <article class="seb-latest-post-bottom">
+              <h2 class="seb-latest-post-title">Tre sätt att hjälpa barnen köpa första bostaden <i
+                  class="fas fa-arrow-right"></i></h2>
+              <p>
+                Jens Magnusson om hur du som förälder kan underlätta för barnen att komma in på bostadsmarknaden.
+              </p>
+            </article>
+          </a>
+
+        </div>
+        <div class="seb-we-help-you-block">
+          <div class="seb-we-help-you-container">
+            <div class="seb-we-help-you">
+              <h2 class="seb-we-help-you-title">Vi hjälper dig</h2>
+            </div>
+            <div class="container seb-we-help-you-links-container">
+              <ul>
+                <li>
+                  <a href="#">Kontakta oss</a>
+                </li>
+                <li>
+                  <a href="#">Allt om bolån och räntor</a>
+                </li>
+                <li>
+                  <a href="#">Kolla saldot</a>
+                </li>
+                <li>
+                  <a href="#">Swisha pengarna</a>
+                </li>
+                <li>
+                  <a href="#">Driftinformation</a>
+                </li>
+                <li>
+                  <a href="#">Skydda dig mot bedrägerier</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </header>
-    <main>
-      <div class="hero-container">
-        <div class="hero-content container">
-          <div class="hero-highlight">
-            <h1 class="hero-main-text">Ett bolån hos oss kommer aldrig ensamt. Se allt som ingår.</h1>
-            <h3 class="hero-sub-text">Det är skillnad på bolån och bolån.</h3>
-            <a href="#" class="btn hero-btn">Räkna på hur mycket du får låna</a>
-          </div>
-        </div>
-        <div class="hero-footer">
-          <nav class="hero-footer-navigation">
-            <ul class="navigation container"> 
-              <li>
-                <a href="#">
-                  Börs och finans <i class="fas fa-arrow-right"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  Fondlista <i class="fas fa-arrow-right"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  Bli kund <i class="fas fa-arrow-right"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  Vanliga frågor och svar <i class="fas fa-arrow-right"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  Skaffa mobilt BankID <i class="fas fa-arrow-right"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="seb-content-block">
-        <div class="seb-content-block-container container">
-          <div class="seb-shares-tickets">
-            <div class="seb-share-ticket">
-              <h4 class="share-ticket-title">
-                <a href="#">
-                  Genomsnittsränta bolån augusti 2020:
-                </a>
-              </h4>
-              <h2 class="share-ticket-procent">1.55 %</h2>
-            </div>
-            <div class="seb-share-ticket">
-              <h4 class="share-ticket-title">
-                <a href="#">
-                  Bolån 3 månaders listränta:
-                </a>
-              </h4>
-              <h2 class="share-ticket-procent">2,39 %</h2>
-            </div>
-            <div class="seb-share-ticket">
-              <h4 class="share-ticket-title">
-                <a href="#">Privatlån Enkla lånet:
-                </a>
-              </h4>
-              <h2 class="share-ticket-procent">3,80–11,10 %</h2>
-            </div>
-            <div class="seb-share-ticket">
-              <h4 class="share-ticket-title">
-                <a href="#">
-                  Fler aktuella räntor <i class="fas fa-arrow-right"></i>
-                </a>
-              </h4>
-            </div>
-          </div>
-          <div class="seb-posts-block">
-            <article class="seb-post">
-              <div class="left-column">
-                <div class="text-block">
-                  <h2 class="post-block-title">I medgång. Och motgång</h2>
-                  <p class="post-block-text">Coronapandemin har förändrat mycket. Våra rutiner i vardagen, hur företag gör affärer och samhället i stort. Med stöd, råd och framförallt handfasta lösningar kan vi som bank tillsammans med dig som kund vara med och skapa en ny framtid. Den här filmen tillägnar vi alla som på olika sätt kämpar sig igenom krisen.</p>
-                </div>
-                
-                <div class="text-block-links">
-                  <a href="#">
-                    Se filmen <i class="fas fa-arrow-right"></i>
-                  </a>
-                </div>
-
-              </div>
-              <div class="right-column">
-                <img src="./img/SEB-1.jpg" alt="viltskog i dimma">
-              </div>
-            </article>
-            <article class="seb-post">
-              <div class="left-column">
-                <img src="./img/SEB-8.jpg" alt="Utsikten">
-              </div>
-              <div class="right-column">
-                <div class="text-block">
-                  <h2 class="post-block-title">Vi blev Årets affärsbank – för andra året i rad</h2>
-                  <p class="post-block-text">
-                    Varje år utser Finansbarometern årets affärsbank baserat på intervjuer med svenska företag. Självklart vill vi tacka alla kunder som röstat fram oss! Er uppskattning betyder extra mycket i turbulensen som hela världen går igenom.
-                  </p>
-                  <p>Tack. Igen.</p>
-                </div>
-                <div class="text-block-links">
-                  <a href="#">
-                    Läs mer om utmärkelsen  <i class="fas fa-external-link-alt"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-            <article class="seb-post">
-              <div class="left-column">
-                <div class="text-block">
-                  <h2 class="post-block-title">Allt om följderna av coronapandemin</h2>
-                  <p class="post-block-text">Vi följer utvecklingen, förklarar de senaste åtgärdspaketen och ger svar på frågor kring din ekonomi.</p>
-                </div>
-                <div class="text-block-links">
-                  <a href="#">
-                    För privatpersoner <i class="fas fa-arrow-right"></i>
-                  </a>
-                  <a href="#">
-                    För företagare <i class="fas fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="right-column">
-                <img src="./img/SEB-6.jpg" alt="Goa frukost">
-              </div>
-            </article>
-            <article class="seb-post-bigbox">
-              <div class="bigbox-content">
-                <div class="bigbox-content-top">
-                  <div class="bigbox-content-text">
-                    <h3>Starta företag hos oss</h3>
-                    <p>Bli företagskund hos oss så hjälper vi dig att förverkliga din affärsidé. Vi erbjuder expertrådgivning och smarta digitala tjänster. Första steget är att ansöka om bankintyg. Det gör du direkt med mobilt BankID.</p>
-                  </div>
-                </div>
-                <div class="bigbox-content-bottom">
-                  <a href="#" class="btn bigbox-button">Bli företagskund hos oss</a>
-                </div>
-              </div>
-            </article>
-            <article class="seb-post">
-              <div class="left-column">
-                <img src="./img/SEB-13.jpg" alt="Goa frukost">
-              </div>
-              <div class="right-column">
-                <div class="text-block">
-                  <h2 class="post-block-title">Spara 5 % av lönen för en bättre pension</h2>
-                  <p class="post-block-text">Att ha ett eget pensionssparande blir allt viktigare. Därför är det ett bra mål att – om du har möjlighet – spara minst 5 % av lönen varje månad.</p>
-                </div>
-                <div class="text-block-links">
-                  <a href="#">
-                    Starta ett pensionssparande <i class="fas fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-            <article class="seb-post">
-              <div class="left-column">
-                <div class="text-block">
-                  <h2 class="post-block-title">Sprid risken med ett månadssparande</h2>
-                  <p class="post-block-text">När du månadssparar kommer du att köpa under både upp- och nedgång och på så sätt sprida risken jämfört med om du gör en engångsinsättning. Vilka fonder som passar dig beror på vad du vill med ditt sparande och hur aktiv du vill vara.</p>
-                </div>
-                <div class="text-block-links">
-                  <a href="#">
-                    Läs mer och kom igång <i class="fas fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="right-column">
-                <img src="./img/SEB-10.jpg" alt="Morgon startar med Ipad">
-              </div>
-            </article>
-            <article class="seb-post">
-              <div class="left-column">
-                <img src="./img/SEB-2.jpg" alt="Morgon startar med Ipad">
-              </div>
-              <div class="right-column">
-                <div class="text-block">
-                  <h2 class="post-block-title">Om du behöver låna</h2>
-                  <p class="post-block-text">Laga bilen, renovera köket eller bli av med dyra smålån? Oavsett vad du behöver låna pengar till har vi lånet för dig. Räkna på vad det skulle kosta och ansök direkt om vårt vanligaste privatlån Enkla lånet.</p>
-                </div>
-                <div class="text-block-links">
-                  <a href="#">
-                    Läs mer om Privatlån Enkla lånet <i class="fas fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-            <article class="seb-post">
-              <div class="left-column">
-                <div class="text-block">
-                  <h2 class="post-block-title">3 saker du inte får missa som student</h2>
-                  <p class="post-block-text">Fria banktjänster. Fri hemförsäkring i 3 månader. Värdefulla kontaktnätverk.</p>
-                </div>
-                <div class="text-block-links">
-                  <a href="#">
-                    Skaffa studentpaketet och få allt det här <i class="fas fa-arrow-right"></i>
-                  </a>
-                </div>
-              </div>
-              <div class="right-column">
-                <img src="./img/SEB-7.jpg" alt="Morgon startar med Ipad">
-              </div>
-            </article>
-          </div>
-          <div class="seb-latest-posts-block">
-            
-            <a href="#" class="seb-latest-post">
-              <figure class="seb-latest-post-top">
-                <img src="./img/SEB-12.jpg" alt="barn">
-              </figure>
-              <div class="seb-latest-post-bottom">
-                <h2 class="seb-latest-post-title">Ge bort en bra start <i class="fas fa-arrow-right"></i></h2>
-                <p>
-                  Ge dina barn eller barnbarn en bra start i livet med en gåva som växer i takt med barnet.
-                </p>
-              </div>
-            </a>
-
-            <a href="#" class="seb-latest-post">
-              <figure class="seb-latest-post-top">
-                <img src="./img/SEB-9.jpg" alt="barn">
-              </figure>
-              <div class="seb-latest-post-bottom">
-                <h2 class="seb-latest-post-title">Grönt bolån – för dig med klimatsmart boende <i class="fas fa-arrow-right"></i></h2>
-                <p>
-                  Nu erbjuder vi dig som har ett klimatsmart boende en extra förmånlig boränta.                  
-                </p>
-              </div>
-            </a>
-
-            <a href="#" class="seb-latest-post">
-              <figure class="seb-latest-post-top">
-                <img src="./img/SEB-11.jpg" alt="barn">
-              </figure>
-              <div class="seb-latest-post-bottom">
-                <h2 class="seb-latest-post-title">Tre sätt att hjälpa barnen köpa första bostaden <i class="fas fa-arrow-right"></i></h2>
-                <p>
-                  Jens Magnusson om hur du som förälder kan underlätta för barnen att komma in på bostadsmarknaden.          
-                </p>
-              </div>
-            </a>
-
-          </div>
-          <div class="seb-we-help-you-block">
-            <!--NÄST SISTA STÄLLE... FORSÄTT HÄR-->
-          </div>
-        </div>
-      </div>
+    </div>
+    <div class="custom-service-block">
       <a href="#" class="custom-service-button">Kundservice</a>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-container container">
+      <div class="footer-list-of-links">
+        <dl>
+          <dt>Snabbvägar</dt>
+          <dd>
+            <a href="#">
+              Hitta bankkontor
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Boka rådgivning
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Aktuella räntor
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Aktuella priser
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Chatta med oss
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Spärra kort
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Driftinformation
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Teknikhjälp
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Om du inte är nöjd
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Alla produkter och tjänster
+            </a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>Populärt</dt>
+          <dd>
+            <a href="#">
+              Hur mycket får jag låna?
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Ansök om lånelöfte
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Bolåneräntor
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Privatlån Enkla lånet
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Börja pensionsspara
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Börja spara i fonder
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Aktier och andra placeringar
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Spara till barn
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Valutaomvandlare
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Valutakurser
+            </a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>Juridik och säkerhet</dt>
+          <dd>
+            <a href="#">
+              SEB:s integritetspolicy
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Sekretess
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Därför ställer vi frågor till dig
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Användning av kakor (cookies)
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Internetsäkerhet
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Besökare utanför Sverige (In English)
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Betaltjänstdirektivet PSD 2
+            </a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>Om SEB</dt>
+          <dd>
+            <a href="#">
+              Om oss
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Så jobbar SEB med hållbarhet
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Bli privatkund
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Bli företagskund
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Lediga tjänster
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Kontakta oss
+            </a>
+          </dd>
+          <dd>
+            <a href="#">
+              Tyck till om seb.se <i class="fas fa-external-link-alt"></i>
+            </a>
+          </dd>
+        </dl>
+      </div>
+      <div class="footer-features">
+        <div class="footer-features-social-media">
+          <div class="facebook">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+          <div class="twitter">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="linked-in">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <div class="instagram">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="youtube">
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-features-seb-group-link">
+          <a href="#">
+            SEB group <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
 
-    </main>
-    <footer></footer>
-  </body>
 </html>
