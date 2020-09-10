@@ -58,6 +58,7 @@
   display: flex;
   align-items: center;
   margin-right: 0.75rem;
+  height: 100%;
 }
 
 .header-container .header-utilites-user-login {
@@ -81,6 +82,25 @@
 
 .header-container .header-utilites-become-customer a, .header-container .header-utilites-search-bar a {
   color: var(--default-color);
+}
+
+.header-utilites {
+  height: 100%;
+}
+
+.header-utilites-search-bar,
+.header-utilites-become-customer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-utilites-become-customer:hover,
+.header-utilites-become-customer:focus,
+.header-utilites .header-utilites-search-bar:focus,
+.header-utilites .header-utilites-search-bar:hover {
+  background-color: var(--hover-shadow-2);
+  height: 100%;
 }
 
 /* Hero Block */
