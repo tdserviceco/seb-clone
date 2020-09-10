@@ -491,6 +491,15 @@
   margin-left: 2.5rem;
 }
 
+.copyright {
+  text-align: center;
+  margin-bottom: 2rem; 
+}
+
+.copyright h5 {
+  font-weight: 100;
+}
+
 /* Fix later */
 
 /* Custom service button */
@@ -508,6 +517,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  color: var(--white);
 }
 
 .custom-service-block,
@@ -516,6 +526,13 @@
   height: 3.5625rem;
   border-radius: 50%;
 }
+
+.custom-service-block:hover,
+.custom-service-block:focus {
+  transform: scale(1.2);
+  transition: transform 250ms ease;
+}
+
 
 .section-private, .section-company {
   display: none;
