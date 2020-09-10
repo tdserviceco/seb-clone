@@ -20,6 +20,7 @@
   --button1: #0092e1;
   --hero-footer: #1a1a1a;
   --default-background: #eee;
+  --button-hover: rgba(0,122,199, 0.3);
 }
 
 body {
